@@ -1,8 +1,8 @@
 import Script from "next/script";
 
-export default function Form() {
+export default function Form({ formId }) {
   function handleLoad() {
-    window.Cognito.mount("127", "#form");
+    window.Cognito.mount(formId, "#form");
   }
 
   return (

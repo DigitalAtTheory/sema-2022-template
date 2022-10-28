@@ -115,3 +115,11 @@ body {
 .el-button {
   @apply text-white text-lg py-4 px-16 bg-[#f51832] font-semibold rounded-lg block text-center md:w-1/2 mx-auto mt-12 cursor-pointer !important;
 }
+
+.cog-confirmation__message > h2 {
+  @apply text-black !important;
+}
+
+.cog-confirmation__message > p {
+  @apply text-black text-xl !important;
+}

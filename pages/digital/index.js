@@ -1,3 +1,4 @@
+import Head from "next/head";
 import HeroImage from "../../components/HeroImage";
 import TitleImage from "../../components/TitleImage";
 import Lockup from "../../components/Lockup";
@@ -9,6 +10,9 @@ import { Link, animateScroll as scroll } from "react-scroll";
 export default function Digital() {
   return (
     <div>
+      <Head>
+        <title>Rosie - SEMA 2022 - Virtual</title>
+      </Head>
       <Slash />
       <div className="max-w-5xl px-8 mx-auto flex flex-col align-middle justify-center relative z-20">
         <div className="text-center py-12 md:py-24">
@@ -44,7 +48,7 @@ export default function Digital() {
           <h2 className="text-4xl font-bold text-center mb-12">
             Sign up, stay tuned
           </h2>
-          <Form />
+          <Form formId="127" />
         </div>
       </div>
     </div>
