@@ -1,12 +1,12 @@
-import HeroImage from "../components/HeroImage";
-import TitleImage from "../components/TitleImage";
-import Lockup from "../components/Lockup";
-import Bottle from "../components/Bottle";
-import Form from "../components/Form";
-import Slash from "../components/Slash";
+import HeroImage from "../../components/HeroImage";
+import TitleImage from "../../components/TitleImage";
+import Lockup from "../../components/Lockup";
+import Bottle from "../../components/Bottle";
+import Form from "../../components/Form";
+import Slash from "../../components/Slash";
 import { Link, animateScroll as scroll } from "react-scroll";
 
-export default function Home() {
+export default function Digital() {
   return (
     <div>
       <Slash />
@@ -20,7 +20,7 @@ export default function Home() {
           </div>
           <div>
             <p className="text-center text-lg md:text-3xl font-light w-3/4 mx-auto">
-              {`Starting here at SEMA, we're inviting you dear reader, to experience more content on Rosie before it drops anywhere else.`}
+              {`Since you couldn't be here with us at the SEMA Show, we're bringing the show to you. If you liked the video that brought you here, fill out the survey below to get on our list for more content like this before it drops anywhere else.`}
             </p>
           </div>
           <Link

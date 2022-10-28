@@ -8,7 +8,7 @@ export default function Bottle() {
   };
 
   return (
-    <div>
+    <div className="w-3/4 lg:w-full mx-auto">
       <Image src={image.src} placeholder="blur" alt={image.alt} />
     </div>
   );
